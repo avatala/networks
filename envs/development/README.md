@@ -1,6 +1,6 @@
-# 3-networks/production
+# 3-networks/development
 
-The purpose of this step is to set up base  shared VPCs  NAT , Private Service networking, server less vpc connector,  baseline firewall rules for environment production.
+The purpose of this step is to set up base  shared VPCs  NAT , Private Service networking, server less vpc connector,  baseline firewall rules for environment development.
 
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
