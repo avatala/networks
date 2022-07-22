@@ -60,7 +60,7 @@ variable "parent_folder" {
 variable "folder_prefix" {
   description = "Name prefix to use for folders created. Should be the same in all steps."
   type        = string
-  default     = "sec"
+  default     = "fldr"
 }
 
 variable "enable_hub_and_spoke" {
