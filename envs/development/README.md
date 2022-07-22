@@ -2,13 +2,6 @@
 
 The purpose of this step is to set up base  shared VPCs  NAT , Private Service networking, server less vpc connector,  baseline firewall rules for environment production.
 
-## Prerequisites
-
-1. bootstrap executed successfully.
-1. org executed successfully.
-1. environments/envs/production executed successfully.
-1. networks/envs/shared executed successfully.
-
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Inputs
