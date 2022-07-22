@@ -15,7 +15,6 @@ The purpose of this step is to set up base  shared VPCs  NAT , Private Service n
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-
 | domain | The DNS name of peering managed zone, for instance 'ideanomics.com.'. Must end with a period. | `string` | n/a | yes |
 | enable\_hub\_and\_spoke | Enable Hub-and-Spoke architecture. | `bool` | `false` | no |
 | enable\_hub\_and\_spoke\_transitivity | Enable transitivity via gateway VMs on Hub-and-Spoke architecture. | `bool` | `false` | no |
@@ -23,7 +22,7 @@ The purpose of this step is to set up base  shared VPCs  NAT , Private Service n
 | org\_id | Organization ID | `string` | n/a | yes |
 | parent\_folder | It will place all the foundation resources under the provided folder instead of the root organization. The value is the numeric folder ID. The folder must already exist.| `string` | `""` | no |
 | terraform\_service\_account | Service account email of the account to impersonate to run Terraform. | `string` | n/a | yes |
-
+| project\_id | Project id for private shared VPC. | `string` | n/a | yes |
 ## Outputs
 
 | Name | Description |
